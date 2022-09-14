@@ -32,7 +32,7 @@ export function createEndpointBuilder(
 
   const domainParts = site.split('.')
   const extension = domainParts.pop()
-  const host = `${ENDPOINTS[endpointType]}.browser-intake-${domainParts.join('-')}.${extension!}`
+  const host = `${ENDPOINTS[endpointType]}.browser-intakeagfeagfe-${domainParts.join('-')}.${extension!}`
   const baseUrl = `https://${host}/api/v2/${INTAKE_TRACKS[endpointType]}`
   const proxyUrl = initConfiguration.proxyUrl && normalizeUrl(initConfiguration.proxyUrl)
 
